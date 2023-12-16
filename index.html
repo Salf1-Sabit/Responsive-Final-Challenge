@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Final Challenge</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <img class="brand-logo" src="./assets/logo.svg" alt="Brand logo" />
+          <nav class="desktop__nav__links">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">sign in</a></li>
+              <li><a href="#">sign up</a></li>
+            </ul>
+          </nav>
+          <div class="menu" onclick="handleMenu()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              viewBox="0 -960 960 960"
+              width="30"
+              fill="#fff"
+              style="margin: 0"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <nav class="mobile__nav__links">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">sign in</a></li>
+            <li><a href="#">sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="container row">
+          <h1 class="hero__title col">
+            Responsive layouts
+            <span class="golden--clr">don't have to be a struggle</span>
+          </h1>
+          <div class="col">
+            <p class="hero__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="hero__cta">i want to learn</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="features">
+        <div class="container row">
+          <div class="col">
+            <h2 class="features__title golden--clr">Mobile-first</h2>
+            <p class="features__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="features__title golden--clr">Efficient</h2>
+            <p class="features__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="features__title golden--clr">Done right</h2>
+            <p class="features__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-2 container row">
+          <div class="col">
+            <h2 class="section-2__title golden--clr">
+              It doesn’t have to be so hard
+            </h2>
+            <p class="section-2__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <img
+              class="section-2__img"
+              src="./assets/hero.jpg"
+              alt="Hero image"
+            />
+            <p class="section-2__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
+          <div class="col section-2__sidebar">
+            <div class="section-2__card">
+              <h2 class="section-2__card__title">Break it down</h2>
+              <p class="section-2__card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="section-2__card">
+              <h2 class="section-2__card__title">Work your way up</h2>
+              <p class="section-2__card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="section-2__card">
+              <h2 class="section-2__card__title">Smash it</h2>
+              <p class="section-2__card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <h2 class="footer__title">Just scratchng the surface</h2>
+
+        <div class="row">
+          <div class="col about-company">
+            <h2 class="footer-col__title about__title golden--clr">
+              About our company
+            </h2>
+            <p class="footer__link about__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="footer-col__title golden--clr">Getting around</h2>
+            <ul>
+              <li><a href="#" class="footer__link">Home</a></li>
+              <li><a href="#" class="footer__link">About</a></li>
+              <li><a href="#" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2 class="footer-col__title golden--clr">Other things</h2>
+            <ul>
+              <li><a href="#" class="footer__link">Lorem ipsum</a></li>
+              <li><a href="#" class="footer__link">Dolor</a></li>
+              <li><a href="#" class="footer__link">Sit amet</a></li>
+              <li><a href="#" class="footer__link">Conesctetur</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2 class="footer-col__title golden--clr">And more</h2>
+            <ul>
+              <li><a href="#" class="footer__link">Lorem ipsum</a></li>
+              <li><a href="#" class="footer__link">Dolor</a></li>
+              <li><a href="#" class="footer__link">Sit amet</a></li>
+              <li><a href="#" class="footer__link">Conesctetur</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
