@@ -1,5 +1,5 @@
 # Conquering Responsive Layout - Final Challenge
 
-This project showcases a meticulously crafted responsive layout built using the Block Element Modifier (BEM) naming conventions. Leveraging the power of Flexbox, it seamlessly adapts to various screen sizes and devices, ensuring pixel-perfect rendering across mobile and desktop platforms. The project encompasses comprehensive demonstrations of responsive design techniques, including mobile and desktop navigations, while adhering closely to a predefined design.
+Developed a responsive landing page as part of the "Conquering Responsive Layouts" course. Utilized industry-standard techniques such as Flexbox, BEM naming conventions, and mobile-first design principles to create a visually compelling and adaptable layout. Overcame challenges in achieving pixel-perfect precision while ensuring seamless responsiveness across various devices. Demonstrated expertise in translating design specifications into a fully functional, responsive web layout.
 
 [Live demo](https://luminous-pudding-07fc4d.netlify.app/)
